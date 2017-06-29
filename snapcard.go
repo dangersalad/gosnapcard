@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-const baseURL string = "https://api.snapcard.io"
+const baseURL string = "https://api.sendwyre.com"
 
 func basicRequest(path string) ([]byte, error) {
 	if path[0] != '/' {
